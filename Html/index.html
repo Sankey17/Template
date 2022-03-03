@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="../Css/Home.css">
+    <link rel="stylesheet" media="screen and (max-width: 864px)" href="../css/resp.css">
+    <link rel="stylesheet" media="screen and (min-width: 1400px)" href="../css/max-resp.css">
+
+    <!-- Font Awsome -->
+    <script defer src="../fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/js/all.js">
+    </script>
+
+
+    <!-- java Script  -->
+    <script src="../Js/Home.js"></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+
+    <!-- Favicon -->
+    <link href="../images/Logo/st.jpg" rel="icon">
+    <link href="../images/Logo/st.jpg" rel="apple-touch-icon">
+
+    <!--scripts for preloader-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script>
+        $(window).load(function () {
+            // Animate loader off screen
+            $("#se-pre-con").fadeOut(5000);;
+        });
+
+        $(document).ready(function () {
+
+            $("#hide").click(function () {
+                $("span").hide();
+                alert("DoubleClick the Creativity after a paragraph is show");
+            });
+            $(".content").dblclick(function () {
+                $("span").show();
+            });
+
+            $("#about").mouseenter(function () {
+                $(".Fade").fadeToggle(1000);
+            });
+
+
+        });
+
+    </script>
+
+
+    <title>Traveler Traveling</title>
+</head>
+
+<!-- <body onload="page_load()"> -->
+
+<body>
+
+
+   <div id="se-pre-con"></div>
+
+    <nav id="navbar">
+        <div id="logo">
+            <img src="../images/Logo/st.jpg" alt="">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#service">Services</a></li>
+            <li class="drop-down"><a href="#page">Page <i class="fas fa-chevron-down"></i></a>
+                <ul>
+                    <li><a href="page_1.html">page-1</a></li>
+                    <li><a href="page_2.html">Page-2</a></li>
+                    <li><a href="page_3.html">Page-3</a></li>
+                </ul>
+            </li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="book_ticket.html">Booking</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="slider">
+            <div class="slides">
+
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+
+                <div class="slide first">
+                    <img src="../images/Debate_GettyImages-585587819.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="../images/Hill-Stations-Holidays.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="../images/image.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="../images/india-top-attractions-varanasi.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="../images/travel-world.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <!-- <div class="container">
+            <div class="box">
+                <div class="imgbx">
+                    <img src="../images/image.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Paris<br> <span>Lorem ipsum dolor sit amet.</span> <br> <a href="#">Read more..</a> </h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="../images/image.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>U.S.<br> <span>Lorem ipsum dolor sit amet.</span> <br> <a href="#">Read more..</a> </h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="../images/image.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Canada<br> <span>Lorem ipsum dolor sit amet.</span> <br> <a href="#">Read more..</a> </h2>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="container2">
+            <div class="box">
+                <div class="imgbx">
+                    <img src="../images/Beach-destinations-in-India_1.jpg" alt="">
+                </div>
+                <div class="btn-card"> India </div>
+                <div class="content">
+                    <h2> Beach <br> <span class="Fade">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo inventore
+                            incidunt cupiditate quisquam pariatur, sed, facere quod nam adipisci quis esse atque
+                            nostrum?</span></h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="../images/Hand-Luggage-Only-17.jpg" alt="">
+                </div>
+                <div class="btn-card"> India </div>
+                <div class="content">
+                    <h2> Stunning Place <br> <span class="Fade">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+                            inventore
+                            incidunt cupiditate quisquam pariatur, sed, facere quod nam adipisci quis esse atque
+                            nostrum?</span></h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="../images/Taj-Mahal.jpg" alt="">
+                </div>
+                <div class="btn-card"> India </div>
+                <div class="content">
+                    <h2> Taj-Mahal <br> <span class="Fade">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo inventore
+                            incidunt cupiditate quisquam pariatur, sed, facere quod nam adipisci quis esse atque
+                            nostrum?</span></h2>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="pic_hover">
+        <div class="container3">
+            <div class="box"></div>
+            <div class="content-1">
+                <h1>NATURE <br> <span>& ADVANTURE</span></h1>
+            </div>
+            <div class="imgbx-3">
+                <img src="../images/Mountains_New_Zealand.jpg" alt="">
+            </div>
+            <div class="imgbx-2">
+                <img src="../images/blue_dunes.jpg" alt="">
+            </div>
+            <div class="imgbx-1">
+                <img src="../images/the-taj-mahal-agra.jpg" alt="">
+            </div>
+            <div class="content-2">
+                <h2>Mountain Advanture is a <br> Trekking & Tour <br> Company.</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="service">
+        <div class="container1">
+            <div class="f-box">
+                <div class="img-t">
+                    <img src="../images/paris.jpg" alt="">
+                </div>
+                <button class="btn" onclick="opacityabout()">Photos</button>
+                <div class="content">
+                    <h2>Visit Paris on a Budget <br>
+                        <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laudantium iusto
+                            vel
+                            quia
+                            voluptas temporibus voluptate distinctio ugit eum vitae, deleniti modi natus repellendus
+                            magni
+                            alias exercitationem ipsum ea, asperiores itaque aperiam velit, nostrum quas libero ex
+                            inventore.
+                        </span><br>
+                    </h2>
+                </div>
+            </div>
+            <div class="box-t">
+                <div class="img-t">
+                    <img src="../images/Visit-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Paris<br> <span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur
+                            adipisicing
+                            elit. Rerum, fugit eum vitae, deleniti modi natus repellendus magni alias exercitationem
+                            ipsum
+                            ea, asperiores itaque.</span> <br> <a href="Login.html">Read more..</a> </h2>
+                </div>
+            </div>
+            <div class="box-t">
+                <div class="img-t">
+                    <img src="../images/Arc-de-Triomphe-Paris-Champs-Elysees.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Paris<br> <span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Aut facere cupiditate doloribus. Veritatis vero dolore est ipsam magnam, maxime eum
+                            eaque
+                            eos
+                            placeat.</span> <br> <a href="Login.html">Read more..</a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="page">
+        <div class="container-t">
+            <div class="box">
+                <ul>
+                    <li class="text">T</li>
+                    <li class="text">R</li>
+                    <li class="text">A</li>
+                    <li class="text">V</li>
+                    <li class="text">E</li>
+                    <li class="text">L</li>
+                </ul>
+                <hr>
+                <hr>
+                <div class="box-t">
+                    <div class="content">
+                        <h1>Creativity in touch <br>
+                            <span id="hide">
+                                Click The Pargraph <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, perspiciatis
+                                magni. Cum
+                                repudiandae cumque id aliquam, dolores consequuntur minus vero laborum animi
+                                similique
+                                minima temporibus corporis odit omnis est! Vitae culpa libero mollitia possimus
+                                omnis! Vitae
+                                animi corrupti magnam earum voluptate veritatis iste sint quos, debitis quod nobis
+                                eos neque
+                                molestiae quia distinctio libero adipisci repellat reprehenderit fugiat nulla!.
+                            </span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="box-1"></div>
+                <div class="box-3"></div>
+                <div class="box-2">
+                    <img src="../images/unnamed.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- </div> -->
+
+    <footer>
+        <div id="box">
+            <div class="box-1">
+                <tr class="content-f">
+                    <h3>
+                        Baltimore
+                        <h1>
+                            Headquartrs
+                        </h1>
+                        <hr>
+                        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis repellendus
+                            distinctio minus doloribus</span>
+                    </h3>
+                </tr>
+                <br>
+                <div class="contect-links">
+                    <a href="#" class="call"><i class="fas fa-phone-alt"></i><span></span>+91 999 999 9999</a>
+                    <a href="#" class="link_l"><i class="fas fa-link"></i><span></span>www.traveling.com</a>
+                    <a href="#" class="mail"><i class="fas fa-envelope"></i><span></span>info@Traveling.com</a>
+                </div>
+            </div>
+            <div class="box-2">
+                <tr class="content-f">
+                    <h3>Location
+                        <h1>We Are Everywhere</h1>
+                        <hr>
+                    </h3>
+                </tr>
+                <tr class="loc-image">
+                    <img src="../images/black world map.png" alt="">
+                </tr>
+            </div>
+            <div class="box-3">
+                <tr class="content-f">
+                    <h3>Get In Touch
+                        <h1>Follow Our Activity</h1>
+                        <hr>
+                        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis repellendus
+                            distinctio minus doloribus</span>
+                    </h3>
+                </tr>
+                <br>
+                <div class="social-links">
+                    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-basic">
+        <footer-t>
+            <div class="social">
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#home">Home</a></li>
+                <li class="list-inline-item"><a href="#about">About</a></li>
+                <li class="list-inline-item"><a href="#service">Services</a></li>
+                <li class="list-inline-item"><a href="Login.html">Contact</a></li>
+            </ul>
+            <p class="copyright">Traveler Traveling</p>
+        </footer-t>
+    </div>
+
+    <script>
+
+        // <!-- page_load -->
+
+        // var preloader = document.getElementById('se-pre-con')
+
+        // function page_load() {
+        //     preloader.style.display = 'none';
+        // }
+
+    </script>
+
+
+</body>
+
+</html>

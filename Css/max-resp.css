@@ -1,0 +1,118 @@
+.container3 .box {
+    left: 35%;
+    
+}
+.container3 .imgbx-1 {
+    left: 32%;
+}
+
+.container3 .imgbx-2 {
+    left: 43%;
+}
+
+.container3 .imgbx-3 {
+    left: 54%;
+}
+
+.container3 .content-1 {
+    left: 43%;
+}
+
+.container3 .content-2 {
+    left: 34%;
+}
+
+
+
+.container-t {
+    margin-left: 10%;
+}
+
+.container-t .box .text {
+    color: #ff3b3b; 
+}
+
+
+
+
+#box {
+    padding: 5%;
+    padding-left: 20%;
+}
+
+#box h1 {
+    color: aqua;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+#box .box-1 hr {
+    top: 24%;
+    left: 19.93%;
+}
+
+#box .box-2 hr {
+    left: 36.93%;
+}
+
+#box .box-3 hr {
+    top: 24%;
+    left: 56.93%;
+}
+
+
+#box .contect-links {
+    left: 18%;
+    padding: 16px;
+}
+
+
+
+.container-tl .box-1 .content span {
+    left: 50%;
+    right: 20%;
+}
+.container-w {
+    padding-top: 20px;
+}
+.container-w h1 {
+    font-size: 5rem;
+}
+
+.container-w .imgbx {
+    right: 5%;
+}
+
+.container-w .content {
+    top: 28%;
+    left: 11%;
+    width: 900px;
+    font-size: 2rem;
+}
+
+.container-w .imgbx-s {
+    left: 10%;
+    top: 49%;
+    width: 200px;
+    height: 200px;
+}
+
+.container-w .imgbx-s2 {
+    left: 15%;
+    top: 70%;
+    width: 200px;
+    height: 200px;
+}
+
+.container-w .imgbx-m {
+    left: 10%;
+    width: 1000px;
+    height: 600px;
+}
+
+.container-w .content-2 {
+    top: 95%;
+    right: 5%;
+    width: 500px;
+    font-size: 2.5rem;
+}

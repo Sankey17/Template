@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account And Login</title>
+
+       <!-- Css -->
+       <link rel="stylesheet" href="../Css/login.css">
+       <link rel="stylesheet" media="screen and (max-width: 864px)" href="../css/resp.css">
+       <link rel="stylesheet" media="screen and (min-width: 1400px)" href="../css/max-resp.css">
+   
+       <!-- Font Awsome -->
+       <script defer src="../fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/js/all.js">
+       </script>
+   
+   
+       <!-- java Script  -->
+       <script src="../Js/login.js"></script>
+   
+       <!-- jquery -->
+       <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+   
+   
+       <!-- Favicon -->
+       <link href="../images/Logo/st.jpg" rel="icon">
+       <link href="../images/Logo/st.jpg" rel="apple-touch-icon">
+   
+       <!--scripts for preloader-->
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+       <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+       <script>
+           $(window).load(function () {
+               // Animate loader off screen
+               $("#se-pre-con").fadeOut(5000);;
+           });
+   
+       </script>
+   
+
+</head>
+
+<body>
+
+    <div id="se-pre-con"></div>
+
+    <nav id="navbar">
+        <div id="logo">
+            <img src="../images/Logo/st.jpg" alt="">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="drop-down"><a href="#page">Page <i class="fas fa-chevron-down"></i></a>
+                <ul>
+                    <li><a href="page_1.html">page-1</a></li>
+                    <li><a href="page_2.html">Page-2</a></li>
+                    <li><a href="page_3.html">Page-3</a></li>
+                </ul>
+            </li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="book_ticket.html">Booking</a></li>
+        </ul>
+    </nav>
+
+    <div id="bgi"></div>
+    <section class="container">
+        <div id="togglebtn">
+            <button type="button" class="tbtn" id="c" onclick="creatacnt()"> <a href="#" class="tbtn">Create account</a>
+            </button>
+            <button type="button" class="tbtn" id="l" onclick="login()"> <a href="#" class="tbtn">Login</a> </button>
+        </div>
+
+        <div class="social-links">
+            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <div id="creatacnt">
+            <form action="" class="input">
+                <div>
+                    <input type="text" class="input-field" placeholder="Username" required>
+                </div>
+                <div>
+                    <input type="password" class="input-field" placeholder="Password" required>
+                </div>
+                <input type="password" class="input-field" placeholder="Confirm Password" required>
+
+                <div class="ckbox">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">remember password</label>
+                </div>
+
+                <div>
+                    <button type="submit " name="submit" class="submitbtn" onclick="btn_click()">Sign up</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div id="login">
+            <form action="" class="input">
+                <div>
+                    <input type="text" class="input-field" placeholder="ENter Username" required>
+                </div>
+                <div>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkboxlogin">
+                    <label for="checkboxlogin">remember password</label>
+                </div>
+                <div>
+                    <button type="submit " class="submitbtn" >Login</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+</body>
+
+</html>

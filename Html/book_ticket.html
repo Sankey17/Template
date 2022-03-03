@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resort booking form</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="../Css/ticket.css">
+    <link rel="stylesheet" media="screen and (max-width: 864px)" href="../css/resp.css">
+    <link rel="stylesheet" media="screen and (min-width: 1400px)" href="../css/max-resp.css">
+
+    <!-- java Script  -->
+    <script src="../Js/Home.js"></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+
+    <!-- Favicon -->
+    <link href="../images/Logo/st.jpg" rel="icon">
+    <link href="../images/Logo/st.jpg" rel="apple-touch-icon">
+
+    <!--scripts for preloader-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script>
+        $(window).load(function () {
+            // Animate loader off screen
+            $("#se-pre-con").fadeOut(5000);;
+        });
+        
+    </script>
+
+</head>
+
+<body>
+    <div class="img-bx">
+    <img src="../images/resort.jpg" alt="">
+    </div>
+    <div id="se-pre-con"></div>
+
+    <nav id="navbar">
+        <div id="logo">
+            <img src="../images/Logo/st.jpg" alt="">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="drop-down"><a href="#page">Page</a>
+                <ul>
+                    <li><a href="page_1.html">page-1</a></li>
+                    <li><a href="page_2.html">Page-2</a></li>
+                    <li><a href="page_3.html">Page-3</a></li>
+                </ul>
+            </li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="book_ticket.html">Booking</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <form class="form-group">
+            <div id="form">
+                <h1 class="text-white text-center">Booking Now</h1>
+
+                <div id="first-group">
+
+                    <div id="content">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" id="input-group" placeholder="First name" required>
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input type="number" id="input-group" placeholder="Phone number" required>
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <input type="date" id="input-group" placeholder="Departure Date" >
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <select id="input-group" style="background-color: black;" >
+                            <option value="">No.of guests</option>
+                            <option value="">1-5</option>
+                            <option value="">6-10</option>
+                            <option value="">11-20</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div id="second-group">
+
+                    <div id="content">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" id="input-group" placeholder="Last name" required>
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <input type="email" id="input-group" placeholder="Email" required>
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <input type="date" id="input-group" placeholder="Arrival Date" >
+                    </div>
+
+                    <div id="content">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <select id="input-group" style="background-color: black;" >
+                            <option value="">Room Type</option>
+                            <option value="">AC</option>
+                            <option value="">Non-AC</option>
+                            <option value="">Single Bed</option>
+                            <option value="">Double Bed</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <button type="submit" id="submit-btn"><a href="Login.html">Book Now</a></button>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
